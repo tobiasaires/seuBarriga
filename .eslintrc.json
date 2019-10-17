@@ -6,7 +6,8 @@
         "jest": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "prettier"
     ],
     "globals": {
         "Atomics": "readonly",
