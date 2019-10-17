@@ -4,10 +4,17 @@
   "main": "index.js",
   "author": "Tobias Aires <tobiasaires@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
   "devDependencies": {
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
