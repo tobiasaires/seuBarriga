@@ -5,7 +5,10 @@
   "author": "Tobias Aires <tobiasaires@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "./node_modules/.bin/jest"
+    "start": "node src/server.js",
+    "test": "jest",
+    "lint": "eslint src/** test/** --fix",
+    "test-watch": "jest --watch --verbose=true"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
